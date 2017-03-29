@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/mytest','TestController@test');
+
+// Route::group(['prefix'=>'admin'],function(){
+//     Route::get('users',function(){
+//         return 'h:';
+//     });
+// });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
