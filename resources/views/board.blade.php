@@ -8,7 +8,7 @@
                     <div class="panel-heading">留言列表</div>
 
                     <div class="panel-body">
-                        <table border="1">
+                        <table border="2">
                             <tr>
                                 <td> id </td>
                                 <td> user_id </td>
